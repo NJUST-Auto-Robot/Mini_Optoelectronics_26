@@ -45,7 +45,7 @@
 //-------------------------------------------------------------------------------------------------------------------
 int fputc(int ch, FILE *stream)
 {
-    uart_write_byte(DEBUG_UART_INDEX, (char)ch);
+    uart_write_byte(PRINTF_USE_UART, (char)ch);
 
     return (ch);
 }
@@ -71,7 +71,7 @@ int _write(int fd, char *buf, int len)
 int fgetc(FILE *f)
 {
 #if PRINTF_OUTPUT_TYPE == 0
-    return uart_read_byte(DEBUG_UART_INDEX);
+    return uart_read_byte(PRINTF_USE_UART);
 #else
     uint8 buf;
     wifi_spi_read_buffer(&buf, 1);
