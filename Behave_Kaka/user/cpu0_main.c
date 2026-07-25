@@ -33,84 +33,28 @@
 * 2022-11-02       pudding            first version
 ********************************************************************************************************************/
 #include "zf_common_headfile.h"
+#include "dgconfig.h"
 #pragma section all "cpu0_dsram"
 // 将本语句与#pragma section all restore语句之间的全局变量都放在CPU0的RAM中
 
-
-// *************************** 例程硬件连接说明 ***************************
-// 核心板正常供电即可 无需额外连接
-// 如果使用主板测试 主板必须要用电池供电
-
-
-// *************************** 例程测试说明 ***************************
-// 1.核心板烧录完成本例程，完成上电
-// 2.可以看到核心板上四个 LED 呈流水灯状闪烁
-// 3.将 SWITCH1 / SWITCH2 两个宏定义对应的引脚分别按照 00 01 10 11 的组合接到 1-VCC 0-GND 或者波动对应主板的拨码开关
-// 3.不同的组合下，四个 LED 流水灯状闪烁的频率会发生变化
-// 4.将 KEY1 / KEY2 / KEY3 / KEY4 两个宏定义对应的引脚接到 1-VCC 0-GND 或者 按对应按键
-// 5.任意引脚接 GND 或者 按键按下会使得所有LED一起闪烁 松开后恢复流水灯
-// 如果发现现象与说明严重不符 请参照本文件最下方 例程常见问题说明 进行排查
-
 // **************************** 代码区域 ****************************
-#define LED1                    (P20_9)
-#define LED2                    (P20_8)
-#define LED3                    (P21_5)
-#define LED4                    (P21_4)
 
-#define KEY1                    (P20_6)
-#define KEY2                    (P20_7)
-#define KEY3                    (P11_2)
-#define KEY4                    (P11_3)
 
-#define SWITCH1                 (P33_11)
-#define SWITCH2                 (P33_12)
 
-uint16 delay_time = 0;
-uint8 led_state = 0;
 
 int core0_main(void)
 {
     clock_init();                   // 获取时钟频率<务必保留>
     debug_init();                   // 初始化默认调试串口
     // 此处编写用户代码 例如外设初始化代码等
+    Base_Peripheral_Init();
 
-    gpio_init(LED1, GPO, GPIO_LOW, GPO_PUSH_PULL);          // 初始化 LED1 输出 默认高电平 推挽输出模式
-    gpio_init(LED2, GPO, GPIO_HIGH, GPO_PUSH_PULL);         // 初始化 LED2 输出 默认高电平 推挽输出模式
-    gpio_init(LED3, GPO, GPIO_LOW, GPO_PUSH_PULL);          // 初始化 LED3 输出 默认高电平 推挽输出模式
-    gpio_init(LED4, GPO, GPIO_HIGH, GPO_PUSH_PULL);         // 初始化 LED4 输出 默认高电平 推挽输出模式
-
-    gpio_init(KEY1, GPI, GPIO_HIGH, GPI_PULL_UP);           // 初始化 KEY1 输入 默认高电平 上拉输入
-    gpio_init(KEY2, GPI, GPIO_HIGH, GPI_PULL_UP);           // 初始化 KEY2 输入 默认高电平 上拉输入
-    gpio_init(KEY3, GPI, GPIO_HIGH, GPI_PULL_UP);           // 初始化 KEY3 输入 默认高电平 上拉输入
-    gpio_init(KEY4, GPI, GPIO_HIGH, GPI_PULL_UP);           // 初始化 KEY4 输入 默认高电平 上拉输入
-
-    gpio_init(SWITCH1, GPI, GPIO_HIGH, GPI_PULL_UP);        // 初始化 SWITCH1 输入 默认高电平 上拉输入
-    gpio_init(SWITCH2, GPI, GPIO_HIGH, GPI_PULL_UP);        // 初始化 SWITCH2 输入 默认高电平 上拉输入
-
-    // 此处编写用户代码 例如外设初始化代码等
     cpu_wait_event_ready();         // 等待所有核心初始化完毕
 	while (TRUE)
 	{
         // 此处编写需要循环执行的代码
-	    delay_time = 300;
-	    if(gpio_get_level(SWITCH1)) delay_time /= 2;
-	    if(gpio_get_level(SWITCH2)) delay_time /= 2;
-	    if( !gpio_get_level(KEY1) || !gpio_get_level(KEY2) || !gpio_get_level(KEY3) || !gpio_get_level(KEY4) )         // 获取 KEYx 电平为低
-	    {
-	        gpio_set_level(LED1, led_state);
-	        gpio_set_level(LED2, led_state);
-	        gpio_set_level(LED3, led_state);
-	        gpio_set_level(LED4, led_state);
-	    }
-	    else
-	    {
-            gpio_set_level(LED1, led_state);
-            gpio_set_level(LED2, !led_state);
-            gpio_set_level(LED3, led_state);
-            gpio_set_level(LED4, !led_state);
-	    }
-	    led_state = !led_state;
-	    system_delay_ms(delay_time);
+	    led_key_test();
+        system_delay_ms(10);
         // 此处编写需要循环执行的代码
 	}
 }
