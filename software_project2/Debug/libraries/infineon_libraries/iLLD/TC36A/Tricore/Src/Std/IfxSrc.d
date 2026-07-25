@@ -1,0 +1,52 @@
+IfxSrc.o :	../libraries/infineon_libraries/iLLD/TC36A/Tricore/Src/Std/IfxSrc.c
+../libraries/infineon_libraries/iLLD/TC36A/Tricore/Src/Std/IfxSrc.c :
+IfxSrc.o :	..\libraries\infineon_libraries\iLLD\TC36A\Tricore\Src\Std\IfxSrc.h
+..\libraries\infineon_libraries\iLLD\TC36A\Tricore\Src\Std\IfxSrc.h :
+IfxSrc.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\_Impl\IfxSrc_cfg.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\_Impl\IfxSrc_cfg.h" :
+IfxSrc.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\IfxCpu_Intrinsics.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\IfxCpu_Intrinsics.h" :
+IfxSrc.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\Ifx_Types.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\Ifx_Types.h" :
+IfxSrc.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Infra\\Platform\Tricore\Compilers\Compilers.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Infra\\Platform\Tricore\Compilers\Compilers.h" :
+IfxSrc.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Configurations\Ifx_Cfg.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Configurations\Ifx_Cfg.h" :
+IfxSrc.o :	"E:\\software_project\\software_project2\\libraries\\zf_common\zf_common_clock.h"
+"E:\\software_project\\software_project2\\libraries\\zf_common\zf_common_clock.h" :
+IfxSrc.o :	"E:\\software_project\\software_project2\\libraries\\zf_common\zf_common_typedef.h"
+"E:\\software_project\\software_project2\\libraries\\zf_common\zf_common_typedef.h" :
+IfxSrc.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\math.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\math.h" :
+IfxSrc.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\typeinfo.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\typeinfo.h" :
+IfxSrc.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdio.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdio.h" :
+IfxSrc.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdarg.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdarg.h" :
+IfxSrc.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdint.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdint.h" :
+IfxSrc.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\string.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\string.h" :
+IfxSrc.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdlib.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdlib.h" :
+IfxSrc.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\\Cpu\\Std\ifx_types.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\\Cpu\\Std\ifx_types.h" :
+IfxSrc.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\\Cpu\\Std\PLATFORM_TYPES.H"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\\Cpu\\Std\PLATFORM_TYPES.H" :
+IfxSrc.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Infra\\Platform\Tricore\Compilers\CompilerTasking.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Infra\\Platform\Tricore\Compilers\CompilerTasking.h" :
+IfxSrc.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stddef.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stddef.h" :
+IfxSrc.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\Platform_Types.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\Platform_Types.h" :
+IfxSrc.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\Ifx_TypesTasking.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\Ifx_TypesTasking.h" :
+IfxSrc.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\IfxCpu_IntrinsicsTasking.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\IfxCpu_IntrinsicsTasking.h" :
+IfxSrc.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Infra\\Sfr\\TC36A\\_Reg\IfxSrc_reg.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Infra\\Sfr\\TC36A\\_Reg\IfxSrc_reg.h" :
+IfxSrc.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Infra\\Sfr\\TC36A\\_Reg\IfxSrc_regdef.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Infra\\Sfr\\TC36A\\_Reg\IfxSrc_regdef.h" :
+IfxSrc.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Infra\\Sfr\\TC36A\\_Reg\Ifx_TypesReg.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Infra\\Sfr\\TC36A\\_Reg\Ifx_TypesReg.h" :

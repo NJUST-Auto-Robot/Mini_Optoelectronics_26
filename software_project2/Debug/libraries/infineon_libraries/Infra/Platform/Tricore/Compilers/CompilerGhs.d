@@ -1,0 +1,40 @@
+CompilerGhs.o :	../libraries/infineon_libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.c
+../libraries/infineon_libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.c :
+CompilerGhs.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\Ifx_Types.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\Ifx_Types.h" :
+CompilerGhs.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Infra\\Platform\Tricore\Compilers\Compilers.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Infra\\Platform\Tricore\Compilers\Compilers.h" :
+CompilerGhs.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Configurations\Ifx_Cfg.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Configurations\Ifx_Cfg.h" :
+CompilerGhs.o :	"E:\\software_project\\software_project2\\libraries\\zf_common\zf_common_clock.h"
+"E:\\software_project\\software_project2\\libraries\\zf_common\zf_common_clock.h" :
+CompilerGhs.o :	"E:\\software_project\\software_project2\\libraries\\zf_common\zf_common_typedef.h"
+"E:\\software_project\\software_project2\\libraries\\zf_common\zf_common_typedef.h" :
+CompilerGhs.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\math.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\math.h" :
+CompilerGhs.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\typeinfo.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\typeinfo.h" :
+CompilerGhs.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdio.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdio.h" :
+CompilerGhs.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdarg.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdarg.h" :
+CompilerGhs.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdint.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdint.h" :
+CompilerGhs.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\string.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\string.h" :
+CompilerGhs.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdlib.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdlib.h" :
+CompilerGhs.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\\Cpu\\Std\ifx_types.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\\Cpu\\Std\ifx_types.h" :
+CompilerGhs.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\\Cpu\\Std\PLATFORM_TYPES.H"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\\Cpu\\Std\PLATFORM_TYPES.H" :
+CompilerGhs.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Infra\\Platform\Tricore\Compilers\CompilerTasking.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Infra\\Platform\Tricore\Compilers\CompilerTasking.h" :
+CompilerGhs.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stddef.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stddef.h" :
+CompilerGhs.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\Platform_Types.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\Platform_Types.h" :
+CompilerGhs.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\Ifx_TypesTasking.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\Ifx_TypesTasking.h" :
+CompilerGhs.o :	..\libraries\infineon_libraries\Infra\Platform\Tricore\Compilers\Compilers.h
+..\libraries\infineon_libraries\Infra\Platform\Tricore\Compilers\Compilers.h :

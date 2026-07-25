@@ -1,0 +1,44 @@
+IfxStdIf_DPipe.o :	../libraries/infineon_libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.c
+../libraries/infineon_libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.c :
+IfxStdIf_DPipe.o :	..\libraries\infineon_libraries\Service\CpuGeneric\StdIf\IfxStdIf_DPipe.h
+..\libraries\infineon_libraries\Service\CpuGeneric\StdIf\IfxStdIf_DPipe.h :
+IfxStdIf_DPipe.o :	..\libraries\infineon_libraries\Service\CpuGeneric\StdIf\IfxStdIf.h
+..\libraries\infineon_libraries\Service\CpuGeneric\StdIf\IfxStdIf.h :
+IfxStdIf_DPipe.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\Ifx_Types.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\Ifx_Types.h" :
+IfxStdIf_DPipe.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Infra\\Platform\Tricore\Compilers\Compilers.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Infra\\Platform\Tricore\Compilers\Compilers.h" :
+IfxStdIf_DPipe.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Configurations\Ifx_Cfg.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Configurations\Ifx_Cfg.h" :
+IfxStdIf_DPipe.o :	"E:\\software_project\\software_project2\\libraries\\zf_common\zf_common_clock.h"
+"E:\\software_project\\software_project2\\libraries\\zf_common\zf_common_clock.h" :
+IfxStdIf_DPipe.o :	"E:\\software_project\\software_project2\\libraries\\zf_common\zf_common_typedef.h"
+"E:\\software_project\\software_project2\\libraries\\zf_common\zf_common_typedef.h" :
+IfxStdIf_DPipe.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\math.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\math.h" :
+IfxStdIf_DPipe.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\typeinfo.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\typeinfo.h" :
+IfxStdIf_DPipe.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdio.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdio.h" :
+IfxStdIf_DPipe.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdarg.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdarg.h" :
+IfxStdIf_DPipe.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdint.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdint.h" :
+IfxStdIf_DPipe.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\string.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\string.h" :
+IfxStdIf_DPipe.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdlib.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stdlib.h" :
+IfxStdIf_DPipe.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\\Cpu\\Std\ifx_types.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\\Cpu\\Std\ifx_types.h" :
+IfxStdIf_DPipe.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\\Cpu\\Std\PLATFORM_TYPES.H"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\\Cpu\\Std\PLATFORM_TYPES.H" :
+IfxStdIf_DPipe.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Infra\\Platform\Tricore\Compilers\CompilerTasking.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Infra\\Platform\Tricore\Compilers\CompilerTasking.h" :
+IfxStdIf_DPipe.o :	"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stddef.h"
+"D:\Infineon\AURIX-Studio-1.10.32\tools\Compilers\Tasking_1.1r8\ctc\include\stddef.h" :
+IfxStdIf_DPipe.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\Platform_Types.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\Platform_Types.h" :
+IfxStdIf_DPipe.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\Ifx_TypesTasking.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\iLLD\\TC36A\\Tricore\Cpu\Std\Ifx_TypesTasking.h" :
+IfxStdIf_DPipe.o :	"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Service\\CpuGeneric\_Utilities\Ifx_Assert.h"
+"E:\\software_project\\software_project2\\libraries\\infineon_libraries\\Service\\CpuGeneric\_Utilities\Ifx_Assert.h" :
