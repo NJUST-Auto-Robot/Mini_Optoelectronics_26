@@ -1,0 +1,15 @@
+*.o
+*.d
+*.lst
+*.map
+*.elf
+*.hex
+*.bin
+*.s19
+*.srec
+*.mot
+*.a
+*.out
+.metadata/
+RemoteSystemsTempFiles/
+*.local

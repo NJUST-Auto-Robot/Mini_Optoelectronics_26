@@ -57,20 +57,20 @@
 
 //====================================================硬件 SPI 驱动====================================================
 #define MENC15A_1_SPI_SPEED            (20 * 1000 * 1000)                        // 磁编码器1 硬件 SPI 速率
-#define MENC15A_1_SPI                  (SPI_0           )                        // 磁编码器1 硬件 SPI 号
-#define MENC15A_1_CLK_PIN              (SPI0_SCLK_P20_11)                        // 磁编码器1 硬件 SPI SCK 引脚
-#define MENC15A_1_MOSI_PIN             (SPI0_MOSI_P20_14)                        // 磁编码器1 硬件 SPI MOSI 引脚
-#define MENC15A_1_MISO_PIN             (SPI0_MISO_P20_12)                        // 磁编码器1 硬件 SPI MISO 引脚
-#define MENC15A_1_CS_PIN               (P20_13)                                  // 磁编码器1 CS 片选引脚
+#define MENC15A_1_SPI                  (SPI_1           )                        // 磁编码器1 硬件 SPI 号
+#define MENC15A_1_CLK_PIN              (SPI1_SCLK_P11_6)                        // 磁编码器1 硬件 SPI SCK 引脚
+#define MENC15A_1_MOSI_PIN             (SPI1_MOSI_P11_9)                        // 磁编码器1 硬件 SPI MOSI 引脚
+#define MENC15A_1_MISO_PIN             (SPI1_MISO_P11_3)                        // 磁编码器1 硬件 SPI MISO 引脚
+#define MENC15A_1_CS_PIN               (P11_10)                                  // 磁编码器1 CS 片选引脚
 #define MENC15A_1_CS(x)                ((x) ? (gpio_high(MENC15A_1_CS_PIN)) : (gpio_low(MENC15A_1_CS_PIN)))
 
 
 #define MENC15A_2_SPI_SPEED            (20 * 1000 * 1000)                        // 磁编码器2 硬件 SPI 速率
-#define MENC15A_2_SPI                  (SPI_0           )                        // 磁编码器2 硬件 SPI 号
-#define MENC15A_2_CLK_PIN              (SPI0_SCLK_P20_11  )                      // 磁编码器2 硬件 SPI SCK 引脚
-#define MENC15A_2_MOSI_PIN             (SPI0_MOSI_P20_14 )                       // 磁编码器2 硬件 SPI MOSI 引脚
-#define MENC15A_2_MISO_PIN             (SPI0_MISO_P20_12 )                       // 磁编码器2 硬件 SPI MISO 引脚
-#define MENC15A_2_CS_PIN               (P20_15)                                  // 磁编码器2 CS 片选引脚
+#define MENC15A_2_SPI                  (SPI_3           )                        // 磁编码器2 硬件 SPI 号
+#define MENC15A_2_CLK_PIN              (SPI3_SCLK_P02_7  )                      // 磁编码器2 硬件 SPI SCK 引脚
+#define MENC15A_2_MOSI_PIN             (SPI3_MOSI_P22_0 )                       // 磁编码器2 硬件 SPI MOSI 引脚
+#define MENC15A_2_MISO_PIN             (SPI3_MISO_P22_1 )                       // 磁编码器2 硬件 SPI MISO 引脚
+#define MENC15A_2_CS_PIN               (P02_8)                                  // 磁编码器2 CS 片选引脚
 #define MENC15A_2_CS(x)                ((x) ? (gpio_high(MENC15A_2_CS_PIN)) : (gpio_low(MENC15A_2_CS_PIN)))
 
 //====================================================硬件 SPI 驱动====================================================

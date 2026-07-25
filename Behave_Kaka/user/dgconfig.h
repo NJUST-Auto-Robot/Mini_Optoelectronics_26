@@ -12,4 +12,5 @@
 void Base_Peripheral_Init(void);
 void Module_Peripheral_Init();
 void led_key_test();
+void Sensor_Read();
 #endif /* USER_DGCONFIG_H_ */

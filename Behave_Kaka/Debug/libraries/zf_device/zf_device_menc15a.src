@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc36524a --dep-file=zf_device_menc15a.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc36x -D__CPU_TC36X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc36x -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC36A -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC36A\\\\_Reg -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC36A -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC36A\\\\Tricore -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Asclin -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Ccu6 -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Cpu -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Dma -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Dma\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Evadc -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Evadc\\\\Adc -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Evadc\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Flash -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Flash\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Gpt12 -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Gtm -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Mtu -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Pms -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Pms\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Port -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Port\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Qspi -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Scu -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Scu\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Src -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Src\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Stm -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Stm\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\_Impl -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\_Lib -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\_PinMap -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\zf_common -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\zf_components -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\zf_device -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\zf_driver -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o libraries/zf_device/zf_device_menc15a.src ../libraries/zf_device/zf_device_menc15a.c"
+	.compiler_invocation	"ctc -f cc26064a --dep-file=zf_device_menc15a.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc36x -D__CPU_TC36X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc36x -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC36A -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC36A\\\\_Reg -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC36A -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC36A\\\\Tricore -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Asclin -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Ccu6 -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Cpu -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Dma -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Dma\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Evadc -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Evadc\\\\Adc -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Evadc\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Flash -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Flash\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Gpt12 -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Gtm -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Mtu -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Pms -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Pms\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Port -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Port\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Qspi -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Scu -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Scu\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Src -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Src\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Stm -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\Stm\\\\Std -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\_Impl -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\_Lib -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC36A\\\\Tricore\\\\_PinMap -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\zf_common -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\zf_components -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\zf_device -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\libraries\\\\zf_driver -ID:\\\\techapps\\\\AURIX\\\\WorkPlace\\\\Behave_Kaka\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o libraries/zf_device/zf_device_menc15a.src ../libraries/zf_device/zf_device_menc15a.c"
 	.compiler_name		"ctc"
 	;source	'../libraries/zf_device/zf_device_menc15a.c'
 
@@ -80,22 +80,22 @@ menc15a_get_absolute_data:	.type	func
 .L128:
 	mov	d15,#0
 	jeq	d15,#0,.L10
-	mov	d4,#653
+	mov	d4,#362
 .L94:
 	call	get_port
 	add.a	a2,#4
-	mov	d0,#8192
+	mov	d0,#1024
 	st.w	[a2],d0
 	j	.L11
 .L10:
-	mov	d4,#653
+	mov	d4,#362
 .L97:
 	call	get_port
 	add.a	a2,#4
-	movh	d0,#8192
+	movh	d0,#1024
 	st.w	[a2],d0
 .L11:
-	mov	d4,#0
+	mov	d4,#1
 .L129:
 	mov.u	d5,#32801
 	call	spi_read_16bit_register
@@ -104,73 +104,73 @@ menc15a_get_absolute_data:	.type	func
 .L100:
 	mov	d15,#1
 	jeq	d15,#0,.L12
-	mov	d4,#653
+	mov	d4,#362
 	call	get_port
 .L99:
 	add.a	a2,#4
-	mov	d0,#8192
+	mov	d0,#1024
 	st.w	[a2],d0
 	j	.L13
 .L12:
-	mov	d4,#653
+	mov	d4,#362
 	call	get_port
 .L101:
 	add.a	a2,#4
-	movh	d0,#8192
+	movh	d0,#1024
 	st.w	[a2],d0
 .L13:
 	j	.L14
 .L9:
 	mov	d15,#0
 	jeq	d15,#0,.L15
-	mov	d4,#655
+	mov	d4,#72
 .L102:
 	call	get_port
 	add.a	a2,#4
-	mov.u	d15,#32768
+	mov	d15,#256
 	st.w	[a2],d15
 	j	.L16
 .L15:
-	mov	d4,#655
+	mov	d4,#72
 .L103:
 	call	get_port
 	add.a	a2,#4
-	movh	d15,#32768
+	movh	d15,#256
 	st.w	[a2],d15
 .L16:
-	mov	d4,#0
+	mov	d4,#3
 .L130:
 	mov	d5,#128
 	call	spi_write_8bit
 .L131:
-	mov	d4,#0
+	mov	d4,#3
 .L132:
 	mov	d5,#33
 	call	spi_write_8bit
 .L133:
-	mov	d4,#0
+	mov	d4,#3
 	call	spi_read_8bit
 .L104:
 	sha	d10,d2,#8
 .L134:
-	mov	d4,#0
+	mov	d4,#3
 	call	spi_read_8bit
 .L105:
 	or	d10,d2
 .L135:
 	mov	d15,#1
 	jeq	d15,#0,.L17
-	mov	d4,#655
+	mov	d4,#72
 	call	get_port
 	add.a	a2,#4
-	mov.u	d15,#32768
+	mov	d15,#256
 	st.w	[a2],d15
 	j	.L18
 .L17:
-	mov	d4,#655
+	mov	d4,#72
 	call	get_port
 	add.a	a2,#4
-	movh	d15,#32768
+	movh	d15,#256
 	st.w	[a2],d15
 .L18:
 .L14:
@@ -228,22 +228,22 @@ menc15a_get_speed_data:	.type	func
 .L152:
 	mov	d15,#0
 	jeq	d15,#0,.L21
-	mov	d4,#653
+	mov	d4,#362
 .L108:
 	call	get_port
 	add.a	a2,#4
-	mov	d0,#8192
+	mov	d0,#1024
 	st.w	[a2],d0
 	j	.L22
 .L21:
-	mov	d4,#653
+	mov	d4,#362
 .L110:
 	call	get_port
 	add.a	a2,#4
-	movh	d0,#8192
+	movh	d0,#1024
 	st.w	[a2],d0
 .L22:
-	mov	d4,#0
+	mov	d4,#1
 .L153:
 	mov.u	d5,#32818
 	call	spi_read_16bit_register
@@ -252,39 +252,39 @@ menc15a_get_speed_data:	.type	func
 .L111:
 	mov	d15,#1
 	jeq	d15,#0,.L23
-	mov	d4,#653
+	mov	d4,#362
 	call	get_port
 	add.a	a2,#4
-	mov	d0,#8192
+	mov	d0,#1024
 	st.w	[a2],d0
 	j	.L24
 .L23:
-	mov	d4,#653
+	mov	d4,#362
 	call	get_port
 	add.a	a2,#4
-	movh	d0,#8192
+	movh	d0,#1024
 	st.w	[a2],d0
 .L24:
 	j	.L25
 .L20:
 	mov	d15,#0
 	jeq	d15,#0,.L26
-	mov	d4,#655
+	mov	d4,#72
 .L112:
 	call	get_port
 	add.a	a2,#4
-	mov.u	d15,#32768
+	mov	d15,#256
 	st.w	[a2],d15
 	j	.L27
 .L26:
-	mov	d4,#655
+	mov	d4,#72
 .L113:
 	call	get_port
 	add.a	a2,#4
-	movh	d15,#32768
+	movh	d15,#256
 	st.w	[a2],d15
 .L27:
-	mov	d4,#0
+	mov	d4,#3
 .L155:
 	mov.u	d5,#32818
 	call	spi_read_16bit_register
@@ -293,17 +293,17 @@ menc15a_get_speed_data:	.type	func
 .L114:
 	mov	d15,#1
 	jeq	d15,#0,.L28
-	mov	d4,#655
+	mov	d4,#72
 	call	get_port
 	add.a	a2,#4
-	mov.u	d15,#32768
+	mov	d15,#256
 	st.w	[a2],d15
 	j	.L29
 .L28:
-	mov	d4,#655
+	mov	d4,#72
 	call	get_port
 	add.a	a2,#4
-	movh	d15,#32768
+	movh	d15,#256
 	st.w	[a2],d15
 .L29:
 .L25:
@@ -364,26 +364,26 @@ __menc15a_get_speed_data_function_end:
 menc15a_init:	.type	func
 	sub.a	a10,#16
 .L117:
-	mov	d15,#7
+	mov	d15,#110
 	st.h	[a10],d15
 .L175:
-	mov	d15,#12
+	mov	d15,#115
 	st.h	[a10]4,d15
 .L176:
 	mov	d15,#397
 	st.h	[a10]8,d15
 .L177:
-	mov	d4,#0
+	mov	d4,#1
 .L178:
 	mov	d5,#1
 .L179:
 	mov	d6,#11520
 	addih	d6,d6,#305
 .L180:
-	mov	d7,#0
+	mov	d7,#103
 	call	spi_init
 .L181:
-	mov	d4,#653
+	mov	d4,#362
 .L182:
 	mov	d5,#1
 .L183:
@@ -392,26 +392,26 @@ menc15a_init:	.type	func
 	mov	d7,#3
 	call	gpio_init
 .L185:
-	mov	d15,#7
+	mov	d15,#314
 	st.h	[a10],d15
 .L186:
-	mov	d15,#12
+	mov	d15,#320
 	st.h	[a10]4,d15
 .L187:
 	mov	d15,#397
 	st.h	[a10]8,d15
 .L188:
-	mov	d4,#0
+	mov	d4,#3
 .L189:
 	mov	d5,#1
 .L190:
 	mov	d6,#11520
 	addih	d6,d6,#305
 .L191:
-	mov	d7,#0
+	mov	d7,#306
 	call	spi_init
 .L192:
-	mov	d4,#655
+	mov	d4,#72
 .L193:
 	mov	d5,#1
 .L194:
